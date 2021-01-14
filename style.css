@@ -226,7 +226,6 @@ header {
     transition: transform 250ms ease-in-out;
 }
 
-
 .hamburger::before,
 .hamburger::after {
     content: '';
@@ -242,7 +241,6 @@ header {
 .intro {
 	position: relative;
 }
-
 
 .intro__img {
 	box-shadow: var(--bs);
@@ -332,6 +330,8 @@ header {
     }
 }
 
+/* About Me Section */
+
 .about-me {
     max-width: 1000px;
     margin: 0 auto;
@@ -379,6 +379,21 @@ header {
     background-color: var(--clr-dark);
     color: var(--clr-light);
     text-align: center;    
+}
+
+.section__title--work{
+    color: var(--clr-accent);
+    position: relative;
+}
+
+.section__title--work::after {
+    content: '';
+    display: block;
+    width: 2em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: var(--clr-light);
+    opacity: 0.25;
 }
 
 .portfolio {
