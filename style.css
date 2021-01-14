@@ -141,7 +141,7 @@ header {
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 69px;
 }
 
 .nav {
@@ -238,6 +238,7 @@ header {
 .hamburger::after { bottom: 6px; }
 
 /* Intro Section */
+
 .intro {
 	position: relative;
 }
@@ -402,7 +403,7 @@ header {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    background: var(--clr-dark);
     overflow: hidden;
 }
 
@@ -423,7 +424,7 @@ header {
     opacity: .5;
 }
 
-/* footer */
+/* Footer */
 
 .footer {
     background: #111;
