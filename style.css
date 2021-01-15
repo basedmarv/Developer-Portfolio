@@ -5,10 +5,7 @@
 }
 
 /* Custom Properties, update these for your own design */
-/*header {
-	width: 100%;
-	background-image: url("Seattle_wallpaper.jpg"); 
-}*/
+
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
@@ -226,6 +223,7 @@ header {
     transition: transform 250ms ease-in-out;
 }
 
+
 .hamburger::before,
 .hamburger::after {
     content: '';
@@ -403,11 +401,14 @@ header {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    background: var(--clr-dark);
     overflow: hidden;
 }
 
 .portfolio__img {
+    width:  325px;
+    height: 325px;
+    object-fit: cover;
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
@@ -439,7 +440,7 @@ header {
     color: inherit;
     text-decoration: none;
 }
-
+ 
 .footer__link {
     font-weight: var(--fw-bold);
 }
