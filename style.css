@@ -336,7 +336,11 @@ header {
     margin: 0 auto;
 }
 
-.about-me__img {
+.about-me__body{
+    text-align: justify; 
+}
+
+/*.about-me__img {
     box-shadow: var(--bs);
 }
 
@@ -370,7 +374,7 @@ header {
         position: relative;
         z-index: 2;
     }
-}
+}*/
 
 /* Projects */
 
@@ -390,7 +394,7 @@ header {
     display: block;
     width: 2em;
     height: 1px;
-    margin: 0.5em auto 1em;
+    margin: 0.5em auto .5em;
     background: var(--clr-light);
     opacity: 0.25;
 }
