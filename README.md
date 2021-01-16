@@ -1,3 +1,2 @@
 # Developer-Portfolio
-This repo contains HTML and CSS code to create my developer portfolio (currently in progress). 
-
+This repo contains HTML,CSS, and JS code to create my developer portfolio (currently in progress). 
