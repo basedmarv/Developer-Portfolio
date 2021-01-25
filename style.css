@@ -15,7 +15,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #228B22;
+    --clr-accent: #158828;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -66,7 +66,6 @@ strong {
 
 :focus {
     outline: 3px solid var(--clr-accent);
-    outline-offset: 3px;
 }
 
 /* Buttons */ 
@@ -285,7 +284,6 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/services-bg.jpg);
     background-size: cover;
     background-blend-mode: multiply; 
     color: var(--clr-light);
@@ -500,6 +498,12 @@ header {
     margin-right: auto;
 }
 
+.portfolio-item-video{
+    margin: 0 auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*Slideshow images for individual portfolio pages*/
 
 * {box-sizing:border-box}

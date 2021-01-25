@@ -49,9 +49,13 @@
                 accurately align the solar panel of the device towards the sun regardless of the season. Our team has designed and fabricated a working prototype that can track a light source
                 and has laid the groundwork for the machine learning aspect of the device that will predict the optimal angle to achieve maximum input.
             </p>
-            <video width="600" height="540" style="display:block; margin: 0 auto;" controls>
-                <source src="Solar Tracking Power Device - Team TTB.mp4" type="video/mp4">
-            </video>
+
+            <div class="portfolio-item-video">
+                <video width="600" height="540" controls>
+                    <source src="Solar Tracking Power Device - Team TTB.mp4" type="video/mp4">
+                </video>
+            </div>
+
             <p>In conjunction with a soldered PCB, the aforementioned photoresistors are placed along the four corners of the PCB to maximize the range at which light is measured. An analog-to-digital converter then
                 converts the analog values of light input from the photoresistors to a digital input that could be used with the software to move the servo towards the direction of the most light. 
                 A Raspberry Pi 3 and a breadboard was used for the pin and wire connections. 
@@ -62,7 +66,7 @@
                 the position. We create a separate model for each servo and based on the models, we initialize the servos to that position.
             </p>
         </div>
-        
+
        <!-- Footer -->
        <footer class="footer">
         <!-- replace with your own email address -->
